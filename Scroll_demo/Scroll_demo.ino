@@ -10,7 +10,6 @@ Scrolling by Nathan Chantrell http://nathan.chantrell.net
 OLedI2C LCD;
 
 void setup() {
-  Serial.begin(9600); 
   Wire.begin();   
   LCD.init();  
   LCD.clearLcd();
